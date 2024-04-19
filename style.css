@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Overpass", sans-serif;
-    ~webkit-font-smoothing: antialiased;
 }
 
 :root{
@@ -13,7 +12,7 @@
     --orange: #FC7614;
     --white: #FFF;
     --very-dark-blue: #131518;
-    --gray: #15191f;
+    --dark-gray: #15191f;
 }
 
 body{
@@ -41,7 +40,7 @@ body{
 }
 
 .card {
-    background-color: var(--gray);
+    background-color: var(--dark-gray);
     max-width: 412px;
     padding: 32px;
     border-radius: 30px;
@@ -57,4 +56,26 @@ body{
     color: var(--light-grey);
     font-size: 15px;
     line-height: 24px;
-} 
+    margin-bottom: 24px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes button{
+    width: 51px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 50%;
+    border: none;
+    color: var(--medium-grey);
+    background-color: var(--dark-blue);
+}
+
+.botoes button :hover {
+    
+}
