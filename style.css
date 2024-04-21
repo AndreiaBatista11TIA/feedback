@@ -25,6 +25,14 @@ body{
 }
 
 
+.card {
+    background-color: var(--dark-gray);
+    max-width: 412px;
+    padding: 32px;
+    border-radius: 30px;
+}
+
+
 .estrela {
     background-color: var(--dark-blue);
     width: 48px;
@@ -39,12 +47,6 @@ body{
     margin-bottom: 30px;
 }
 
-.card {
-    background-color: var(--dark-gray);
-    max-width: 412px;
-    padding: 32px;
-    border-radius: 30px;
-}
 
 .card h1 {
     color: var(--white);
